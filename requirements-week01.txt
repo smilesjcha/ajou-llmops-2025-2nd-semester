@@ -1,0 +1,9 @@
+transformers>=4.42
+torch
+accelerate
+python-dotenv
+requests
+langchain
+jupyter
+ipykernel
+pandas
