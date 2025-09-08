@@ -19,3 +19,19 @@
 - **Week 14**: 비용 최적화 & 오토스케일링
 - **Week 15**: Capstone 설계 워크숍
 - **Week 16**: 기말고사
+
+---
+
+## ⚙️ 환경 설정 안내
+- 수업 코드 실행 전, 프로젝트 루트에서 아래 명령을 실행하세요:
+  ```bash
+  cp .env.sample .env
+
+* 생성된 `.env` 파일 안에 개인의 `OPENAI_API_KEY`를 직접 입력합니다:
+
+  ```env
+  OPENAI_API_KEY=your_secret_key_here
+  ```
+* 이후에는 코드 실행 시 자동으로 해당 키가 로드되어 정상 동작합니다.
+
+```
