@@ -3,3 +3,8 @@ summarization,,,48,31.303982734680176,2-3 sentence summary
 qa,,,92,7.845135688781738,LLM LifeCycle question
 style_transfer,,,27,3.981947898864746,casual rewrite
 summarization_raw,0.7,0.9,22,2.2068111896514893,/api/generate path with sampling
+summarization,,,49,13.276957035064695,2-3 sentence summary
+summarization,,,30,4.322006940841675,2-3 sentence summary
+qa,,,105,12.721062183380129,LLM LifeCycle question
+style_transfer,,,45,7.215989112854004,casual rewrite
+summarization_raw,0.7,0.9,23,4.869223356246948,/api/generate path with sampling
