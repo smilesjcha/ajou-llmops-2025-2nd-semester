@@ -1,0 +1,13 @@
+name: Meeting Minutes - Simple Summary
+version: v0.1.0
+description: Summarize a meeting transcript into a short abstract and top-5 bullets.
+inputs:
+  transcript:
+    type: string
+outputs:
+  response_format: markdown
+---
+system:
+You are a note-taker for a company meeting. Summarize concisely for busy stakeholders with no fabrication.
+user:
+{{ transcript }}
