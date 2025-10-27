@@ -1,0 +1,43 @@
+{
+  "info": {
+    "name": "Week09 Mini Chatbot API",
+    "_postman_id": "79e8da31-66dc-4c4c-a2a1-4944f3d7dd93",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Chat",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": "http://localhost:8000/chat",
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"userId\": \"demo\",\n  \"message\": \"Hello!\",\n  \"params\": {}\n}"
+        }
+      }
+    },
+    {
+      "name": "Chat Stream",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": "http://localhost:8000/chat/stream",
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"userId\": \"demo\",\n  \"message\": \"Stream please\",\n  \"params\": {}\n}"
+        }
+      }
+    }
+  ]
+}
