@@ -1,11 +1,11 @@
 {
   "_type": "export",
   "__export_format": 4,
-  "__export_date": "2025-10-27T18:55:15.698960",
+  "__export_date": "2025-10-27T20:41:44.973873",
   "__export_source": "week09-generator",
   "resources": [
     {
-      "_id": "wrk_1a6fbb1ec5e949ec9b0cdda12ea5d14e",
+      "_id": "wrk_257ab807205f42f99af28b4f7910144e",
       "_type": "workspace",
       "name": "Week09 Mini Chatbot API",
       "scope": "collection"
