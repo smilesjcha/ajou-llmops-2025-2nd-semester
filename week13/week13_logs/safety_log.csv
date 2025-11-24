@@ -1,0 +1,5 @@
+ts,route,blocked,toxicity,pii_hits,latency_ms
+2025-11-24T09:49:53Z,/chat,0,0.4,phone,0
+2025-11-24T09:49:53Z,/chat,0,0.0,,0
+2025-11-24T09:49:53Z,/chat,0,0.0,rrn,0
+2025-11-24T09:49:53Z,/chat,0,0.0,,0
